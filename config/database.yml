@@ -48,9 +48,11 @@ test:
   password:
 
 production:
-  adapter: postgresql
+  host: ec2-107-22-183-27.compute-1.amazonaws.com
+ # adapter: sqlite3
   encoding: unicode
-  database: northwind_production
+  database: dckesk0qee498f
+  port: 5432
   pool: 5
-  username: northwind
-  password:
+  username: iikcgdsqnrdqlw
+  password: Z6VD0QlwfWuc2RJ3odYPExMNF3
